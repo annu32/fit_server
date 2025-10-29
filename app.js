@@ -16,8 +16,7 @@ const allowedOrigins = [
     // 2. Your Local Development URL (default for Vite/React)
     "http://localhost:5173",
     // 3. YOUR RENDER BACKEND URL: Add the official domain Render assigns you here 
-    //    (e.g., "https://your-backend-name.onrender.com"). This allows the backend to talk to itself.
-    //    *** IMPORTANT: Remember to update and redeploy this file after Render gives you the final URL. ***
+    "https://fit-server-3.onrender.com"
 ];
 
 // Middleware
