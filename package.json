@@ -1,0 +1,29 @@
+{
+  "name": "fit_gy",
+  "version": "1.0.0",
+  "main": "server/app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annu32/Fit_Gy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annu32/Fit_Gy/issues"
+  },
+  "homepage": "https://github.com/annu32/Fit_Gy#readme",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.17.1",
+    "nodemon": "^3.1.10"
+  }
+}
